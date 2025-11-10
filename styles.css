@@ -2,6 +2,7 @@ body {
     font-family: "Orbitron", sans-serif;
     text-align: center;
     background-color: #0C2B4E;
+    color: #f4F4F4;
 }
 
 #title {
@@ -74,4 +75,8 @@ button:hover {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+}
+
+#commentary-title {
+    text-decoration: underline;
 }

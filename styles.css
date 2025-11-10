@@ -80,3 +80,15 @@ button:hover {
 #commentary-title {
     text-decoration: underline;
 }
+.cancel-button, reset-button {
+    width: 120px;
+    height: 70px;
+    font-family: "Orbitron", sans-serif;
+    border-radius: 10px;
+    background-color: #1A3D64;
+    border: 5px solid #F4F4F4;
+    font-size: 24px;
+    letter-spacing: normal;
+    color: #f4F4F4;
+    margin: 5px;
+}

@@ -40,3 +40,22 @@ function commentary() {
         commentary.textContent = "Guest Team Won The Match"
     }
 }
+
+
+// function to reset the scores
+function reset() {
+    // set the scores to zero
+    if(homePoints >= 21 || guestPoints >= 21) {
+         homePoints = 0
+    guestPoints = 0
+    }
+    homeScore.textContent = homePoints
+    guestScore.textContent = guestPoints
+}
+
+function cancelGame() {
+    homePoints = 0
+    guestPoints = 0
+    homeScore.textContent = homePoints
+    guestScore.textContent = guestPoints
+}
